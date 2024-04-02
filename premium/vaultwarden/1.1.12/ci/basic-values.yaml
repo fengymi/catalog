@@ -1,0 +1,3 @@
+vaultwardenStorage:
+  data:
+    type: pvc

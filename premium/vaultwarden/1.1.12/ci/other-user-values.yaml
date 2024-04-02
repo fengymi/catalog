@@ -1,0 +1,7 @@
+vaultwardenStorage:
+  data:
+    type: pvc
+
+vaultwardenRunAs:
+  user: 1000
+  group: 1000

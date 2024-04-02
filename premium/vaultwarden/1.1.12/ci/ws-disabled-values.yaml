@@ -1,0 +1,6 @@
+vaultwardenStorage:
+  data:
+    type: pvc
+
+vaultwardenNetwork:
+  wsEnabled: false

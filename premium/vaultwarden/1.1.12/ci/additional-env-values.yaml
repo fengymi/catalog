@@ -1,0 +1,10 @@
+vaultwardenStorage:
+  data:
+    type: pvc
+
+vaultwardenConfig:
+  additionalEnvs:
+    - name: LOG_LEVEL
+      value: debug
+    - name: SIGNUPS_ALLOWED
+      value: false

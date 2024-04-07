@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/system/kubernetes-reflector/4.7.5",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
             "definitions/certificate"
         ],
@@ -2135,7 +2135,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/system/kubernetes-reflector/4.7.4",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
             "definitions/certificate"
         ],

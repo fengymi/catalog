@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/pihole/16.5.2",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "2024.03.2_16.5.2",
         "version": "16.5.2",
@@ -5589,19 +5589,19 @@
         },
         "app_readme": "<p>DNS and Ad-filtering for your network</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/pihole\">https://truecharts.org/charts/stable/pihole</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/pihole\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.5.2\">pihole-16.5.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image pihole/pihole to v2024.03.2<a href=\"https://github.com/e01b4ad\">@e01b4ad</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20074\">#20074</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image pihole/pihole to v2024.03.1<a href=\"https://github.com/e3bb67e\">@e3bb67e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19893\">#19893</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>"
     },
     "16.5.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/pihole/16.5.1",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "2024.03.1_16.5.1",
         "version": "16.5.1",
@@ -11188,12 +11188,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/pihole/15.3.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "2024.02.2_15.3.0",
         "version": "15.3.0",
@@ -16865,12 +16865,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/pihole/15.2.4",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "2024.02.2_15.2.4",
         "version": "15.2.4",
@@ -22542,13 +22542,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/pihole/14.3.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.02.0_14.3.0",
         "version": "14.3.0",
@@ -28262,13 +28262,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/pihole/14.2.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.02.0_14.2.0",
         "version": "14.2.0",

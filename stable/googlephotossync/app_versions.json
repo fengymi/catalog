@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/googlephotossync/6.0.3",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.1_6.0.3",
         "version": "6.0.3",
@@ -4160,11 +4160,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/googlephotossync/6.0.2",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.1_6.0.2",
         "version": "6.0.2",
@@ -8316,11 +8316,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/googlephotossync/5.7.2",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.1_5.7.2",
         "version": "5.7.2",
@@ -12472,11 +12472,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/googlephotossync/5.7.1",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.1_5.7.1",
         "version": "5.7.1",
@@ -16628,12 +16628,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/googlephotossync/4.4.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.1_4.4.0",
         "version": "4.4.0",
@@ -20827,12 +20827,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/googlephotossync/4.3.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "3.2.1_4.3.0",
         "version": "4.3.0",

@@ -1,18 +1,18 @@
 {
-    "0.0.4": {
+    "0.0.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/peppermint/0.0.4",
-        "last_update": "2024-04-06 00:24:21",
+        "location": "/home/runner/work/catalog/catalog/incubator/peppermint/0.0.2",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
-        "human_version": "latest_0.0.4",
-        "version": "0.0.4",
+        "human_version": "latest_0.0.2",
+        "version": "0.0.2",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -28,7 +28,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.2.13",
+                    "version": "20.2.10",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -59,7 +59,7 @@
                 "https://hub.docker.com/r/pepperlabs/peppermint"
             ],
             "type": "application",
-            "version": "0.0.4"
+            "version": "0.0.2"
         },
         "app_metadata": null,
         "schema": {
@@ -5214,22 +5214,22 @@
         },
         "app_readme": "<p>An open source ticket management &amp; help desk solution.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/peppermint\">https://truecharts.org/charts/incubator/peppermint</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/incubator/peppermint\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.4]peppermint-0.0.4 (2024-04-02)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.13<a href=\"https://github.com/c6e8fea\">@c6e8fea</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20139\">#20139</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>\n<h2>[peppermint-0.0.2]peppermint-0.0.2 (2024-03-31)</h2>\n<h3>Chore</h3>\n<ul>\n<li>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</li>\n</ul>"
     },
-    "0.0.3": {
+    "0.0.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/peppermint/0.0.3",
-        "last_update": "2024-04-06 00:24:21",
+        "location": "/home/runner/work/catalog/catalog/incubator/peppermint/0.0.1",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
-        "human_version": "latest_0.0.3",
-        "version": "0.0.3",
+        "human_version": "latest_0.0.1",
+        "version": "0.0.1",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.0",
@@ -5245,7 +5245,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "20.2.12",
+                    "version": "20.2.4",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -5276,7 +5276,7 @@
                 "https://hub.docker.com/r/pepperlabs/peppermint"
             ],
             "type": "application",
-            "version": "0.0.3"
+            "version": "0.0.1"
         },
         "app_metadata": null,
         "schema": {
@@ -10430,7 +10430,7 @@
             ]
         },
         "app_readme": "<p>An open source ticket management &amp; help desk solution.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/incubator/peppermint\">https://truecharts.org/charts/incubator/peppermint</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-        "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/incubator/peppermint\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update ignored updates to v20.2.12<a href=\"https://github.com/944bc78\">@944bc78</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20094\">#20094</a>)</p>\n</li>\n<li>\n<p>update ignored updates to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/20000\">#20000</a>)</p>\n</li>\n</ul>\n<h2>[peppermint-0.0.3]peppermint-0.0.3 (2024-04-01)</h2>"
+        "detailed_readme": "<h1>README</h1>",
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2>[peppermint-0.0.1]peppermint-0.0.1 (2024-03-30)</h2>\n<h2>[peppermint-0.0.1]peppermint-0.0.1 (2024-03-30)</h2>\n<h2>[peppermint-0.0.1]peppermint-0.0.1 (2024-03-30)</h2>"
     }
 }

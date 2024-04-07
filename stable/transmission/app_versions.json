@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/transmission/20.7.5",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.0.5_20.7.5",
         "version": "20.7.5",
@@ -5353,12 +5353,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/transmission/20.7.4",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.0.5_20.7.4",
         "version": "20.7.4",
@@ -10702,13 +10702,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/transmission/19.3.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "4.0.5_19.3.0",
         "version": "19.3.0",
@@ -16094,13 +16094,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/transmission/19.2.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "4.0.5_19.2.0",
         "version": "19.2.0",

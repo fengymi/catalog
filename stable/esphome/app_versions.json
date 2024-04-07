@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/esphome/19.8.4",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "2024.3.1_19.8.4",
         "version": "19.8.4",
@@ -5473,12 +5473,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/esphome/19.8.3",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
             "definitions/interface",
+            "definitions/timezone",
             "definitions/certificate",
-            "definitions/timezone"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "2024.3.1_19.8.3",
         "version": "19.8.3",
@@ -10942,13 +10942,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/esphome/18.1.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.2.0_18.1.0",
         "version": "18.1.0",
@@ -16454,13 +16454,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/esphome/18.0.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2024.2.0_18.0.0",
         "version": "18.0.0",
@@ -21966,13 +21966,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/esphome/17.2.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
-            "definitions/interface",
-            "definitions/certificate",
             "definitions/gpuConfiguration",
-            "definitions/timezone"
+            "definitions/certificate",
+            "definitions/timezone",
+            "normalize/interfaceConfiguration",
+            "definitions/interface"
         ],
         "human_version": "2023.12.9_17.2.0",
         "version": "17.2.0",

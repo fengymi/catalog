@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/guide2go/5.7.5",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "latest_5.7.5",
         "version": "5.7.5",
@@ -4665,11 +4665,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/guide2go/5.7.4",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "latest_5.7.4",
         "version": "5.7.4",
@@ -9326,12 +9326,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/guide2go/4.3.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "latest_4.3.0",
         "version": "4.3.0",
@@ -14030,12 +14030,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/guide2go/4.2.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "latest_4.2.0",
         "version": "4.2.0",

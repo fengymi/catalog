@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/tasmoadmin/8.7.5",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.0.1_8.7.5",
         "version": "8.7.5",
@@ -4876,11 +4876,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/tasmoadmin/8.7.4",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/certificate",
             "definitions/interface",
-            "definitions/certificate"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.0.1_8.7.4",
         "version": "8.7.4",
@@ -9748,12 +9748,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/tasmoadmin/7.2.0",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.0.1_7.2.0",
         "version": "7.2.0",
@@ -14663,12 +14663,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/tasmoadmin/7.1.1",
-        "last_update": "2024-04-06 00:24:21",
+        "last_update": "2024-04-01 12:41:33",
         "required_features": [
-            "normalize/interfaceConfiguration",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "normalize/interfaceConfiguration"
         ],
         "human_version": "4.0.1_7.1.1",
         "version": "7.1.1",

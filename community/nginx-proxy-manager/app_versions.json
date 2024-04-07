@@ -1,0 +1,613 @@
+{
+    "1.0.29": {
+        "healthy": true,
+        "supported": true,
+        "healthy_error": null,
+        "location": "/__w/charts/charts/community/nginx-proxy-manager/1.0.29",
+        "last_update": "2024-04-06 11:35:38",
+        "required_features": [
+            "normalize/ixVolume",
+            "definitions/timezone"
+        ],
+        "human_version": "2.11.1_1.0.29",
+        "version": "1.0.29",
+        "chart_metadata": {
+            "name": "nginx-proxy-manager",
+            "description": "Expose your services easily and securely",
+            "annotations": {
+                "title": "Nginx Proxy Manager"
+            },
+            "type": "application",
+            "version": "1.0.29",
+            "apiVersion": "v2",
+            "appVersion": "2.11.1",
+            "kubeVersion": ">=1.16.0-0",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "dependencies": [
+                {
+                    "name": "common",
+                    "repository": "file://../../../common",
+                    "version": "1.2.9"
+                }
+            ],
+            "home": "https://nginxproxymanager.com/",
+            "icon": "https://media.sys.truenas.net/apps/nginx-proxy-manager/icons/icon.png",
+            "sources": [
+                "https://nginxproxymanager.com/",
+                "https://github.com/truenas/charts/tree/master/community/nginx-proxy-manager",
+                "https://hub.docker.com/r/jc21/nginx-proxy-manager"
+            ],
+            "keywords": [
+                "nginx",
+                "proxy"
+            ]
+        },
+        "app_metadata": {
+            "runAsContext": [
+                {
+                    "userName": "root",
+                    "groupName": "root",
+                    "gid": 0,
+                    "uid": 0,
+                    "description": "Nginx Proxy Manager requires root privileges to start the nginx process."
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "SETUID",
+                    "description": "Nginx Proxy Manager requires this ability to switch user for sub-processes."
+                },
+                {
+                    "name": "SETGID",
+                    "description": "Nginx Proxy Manager requires this ability to switch group for sub-processes."
+                },
+                {
+                    "name": "CHOWN",
+                    "description": "Nginx Proxy Manager requires this ability to chown files."
+                },
+                {
+                    "name": "FOWNER",
+                    "description": "Nginx Proxy Manager requires this ability to bypass file ownership checks for it's sub-processes."
+                },
+                {
+                    "name": "DAC_OVERRIDE",
+                    "description": "Nginx Proxy Manager requires this ability to bypass file permission checks for it's sub-processes."
+                }
+            ],
+            "hostMounts": []
+        },
+        "schema": {
+            "groups": [
+                {
+                    "name": "Nginx Proxy Manager Configuration",
+                    "description": "Configure Nginx Proxy Manager"
+                },
+                {
+                    "name": "User and Group Configuration",
+                    "description": "Configure User and Group for Nginx Proxy Manager"
+                },
+                {
+                    "name": "Network Configuration",
+                    "description": "Configure Network for Nginx Proxy Manager"
+                },
+                {
+                    "name": "Storage and Persistence",
+                    "description": "Configure Storage for Nginx Proxy Manager"
+                },
+                {
+                    "name": "Resources Configuration",
+                    "description": "Configure Resources for Nginx Proxy Manager"
+                },
+                {
+                    "name": "Database Settings",
+                    "description": "Database Settings"
+                }
+            ],
+            "portals": {
+                "web_portal": {
+                    "protocols": [
+                        "$kubernetes-resource_configmap_portal_protocol"
+                    ],
+                    "host": [
+                        "$kubernetes-resource_configmap_portal_host"
+                    ],
+                    "ports": [
+                        "$kubernetes-resource_configmap_portal_port"
+                    ],
+                    "path": "$kubernetes-resource_configmap_portal_path"
+                }
+            },
+            "questions": [
+                {
+                    "variable": "TZ",
+                    "group": "Nginx Proxy Manager Configuration",
+                    "label": "Timezone",
+                    "schema": {
+                        "type": "string",
+                        "default": "America/Los_Angeles",
+                        "required": true,
+                        "$ref": [
+                            "definitions/timezone"
+                        ],
+                        "enum": [
+                            {
+                                "value": "Asia/Damascus",
+                                "description": "'Asia/Damascus' timezone"
+                            },
+                            {
+                                "value": "Asia/Saigon",
+                                "description": "'Asia/Saigon' timezone"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "npmConfig",
+                    "label": "",
+                    "group": "Nginx Proxy Manager Configuration",
+                    "schema": {
+                        "type": "dict",
+                        "attrs": [
+                            {
+                                "variable": "additionalEnvs",
+                                "label": "Additional Environment Variables",
+                                "description": "Configure additional environment variables for Nginx Proxy Manager.",
+                                "schema": {
+                                    "type": "list",
+                                    "default": [],
+                                    "items": [
+                                        {
+                                            "variable": "env",
+                                            "label": "Environment Variable",
+                                            "schema": {
+                                                "type": "dict",
+                                                "attrs": [
+                                                    {
+                                                        "variable": "name",
+                                                        "label": "Name",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "variable": "value",
+                                                        "label": "Value",
+                                                        "schema": {
+                                                            "type": "string",
+                                                            "required": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "npmID",
+                    "label": "",
+                    "group": "User and Group Configuration",
+                    "schema": {
+                        "type": "dict",
+                        "attrs": [
+                            {
+                                "variable": "user",
+                                "label": "User ID",
+                                "description": "The user id that Nginx Proxy Manager files will be owned by.",
+                                "schema": {
+                                    "type": "int",
+                                    "min": 2,
+                                    "default": 568,
+                                    "required": true
+                                }
+                            },
+                            {
+                                "variable": "group",
+                                "label": "Group ID",
+                                "description": "The group id that Nginx Proxy Manager files will be owned by.",
+                                "schema": {
+                                    "type": "int",
+                                    "min": 2,
+                                    "default": 568,
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "npmNetwork",
+                    "label": "",
+                    "group": "Network Configuration",
+                    "schema": {
+                        "type": "dict",
+                        "attrs": [
+                            {
+                                "variable": "webPort",
+                                "label": "Web Port",
+                                "description": "The port for the Nginx Proxy Manager Web UI.",
+                                "schema": {
+                                    "type": "int",
+                                    "default": 9081,
+                                    "min": 9000,
+                                    "max": 65535,
+                                    "required": true
+                                }
+                            },
+                            {
+                                "variable": "httpPort",
+                                "label": "HTTP Port",
+                                "description": "The HTTP port for the Nginx Proxy Manager.",
+                                "schema": {
+                                    "type": "int",
+                                    "default": 9080,
+                                    "min": 9000,
+                                    "max": 65535,
+                                    "required": true
+                                }
+                            },
+                            {
+                                "variable": "httpsPort",
+                                "label": "HTTPS Port",
+                                "description": "The HTTP port for the Nginx Proxy Manager.",
+                                "schema": {
+                                    "type": "int",
+                                    "default": 9443,
+                                    "min": 9000,
+                                    "max": 65535,
+                                    "required": true
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "npmStorage",
+                    "label": "",
+                    "group": "Storage and Persistence",
+                    "schema": {
+                        "type": "dict",
+                        "attrs": [
+                            {
+                                "variable": "data",
+                                "label": "Nginx Proxy Manager Data Storage",
+                                "description": "The path to store Nginx Proxy Manager Data.",
+                                "schema": {
+                                    "type": "dict",
+                                    "attrs": [
+                                        {
+                                            "variable": "type",
+                                            "label": "Type",
+                                            "description": "ixVolume: Is dataset created automatically by the system.</br>\nHost Path: Is a path that already exists on the system.\n",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "immutable": true,
+                                                "default": "ixVolume",
+                                                "enum": [
+                                                    {
+                                                        "value": "hostPath",
+                                                        "description": "Host Path (Path that already exists on the system)"
+                                                    },
+                                                    {
+                                                        "value": "ixVolume",
+                                                        "description": "ixVolume (Dataset created automatically by the system)"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "datasetName",
+                                            "label": "Dataset Name",
+                                            "schema": {
+                                                "type": "string",
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "ixVolume"
+                                                    ]
+                                                ],
+                                                "required": true,
+                                                "hidden": true,
+                                                "immutable": true,
+                                                "default": "data",
+                                                "$ref": [
+                                                    "normalize/ixVolume"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "hostPath",
+                                            "label": "Host Path",
+                                            "schema": {
+                                                "type": "hostpath",
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "hostPath"
+                                                    ]
+                                                ],
+                                                "required": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "variable": "certs",
+                                "label": "Nginx Proxy Manager Certificate Storage",
+                                "description": "The path to store Nginx Proxy Manager Certificate.",
+                                "schema": {
+                                    "type": "dict",
+                                    "attrs": [
+                                        {
+                                            "variable": "type",
+                                            "label": "Type",
+                                            "description": "ixVolume: Is dataset created automatically by the system.</br>\nHost Path: Is a path that already exists on the system.\n",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": true,
+                                                "immutable": true,
+                                                "default": "ixVolume",
+                                                "enum": [
+                                                    {
+                                                        "value": "hostPath",
+                                                        "description": "Host Path (Path that already exists on the system)"
+                                                    },
+                                                    {
+                                                        "value": "ixVolume",
+                                                        "description": "ixVolume (Dataset created automatically by the system)"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "datasetName",
+                                            "label": "Dataset Name",
+                                            "schema": {
+                                                "type": "string",
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "ixVolume"
+                                                    ]
+                                                ],
+                                                "required": true,
+                                                "hidden": true,
+                                                "immutable": true,
+                                                "default": "certs",
+                                                "$ref": [
+                                                    "normalize/ixVolume"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "hostPath",
+                                            "label": "Host Path",
+                                            "schema": {
+                                                "type": "hostpath",
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "hostPath"
+                                                    ]
+                                                ],
+                                                "required": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "variable": "opt",
+                                "label": "Nginx Proxy Manager Certificate opt",
+                                "description": "The path to store Nginx Proxy Manager opt.",
+                                "schema": {
+                                    "type": "dict",
+                                    "attrs": [
+                                        {
+                                            "variable": "type",
+                                            "label": "Type",
+                                            "description": "ixVolume: Is dataset created automatically by the system.</br>\nHost Path: Is a path that already exists on the system.\n",
+                                            "schema": {
+                                                "type": "string",
+                                                "required": false,
+                                                "immutable": true,
+                                                "default": "ixVolume",
+                                                "enum": [
+                                                    {
+                                                        "value": "hostPath",
+                                                        "description": "Host Path (Path that already exists on the system)"
+                                                    },
+                                                    {
+                                                        "value": "ixVolume",
+                                                        "description": "ixVolume (Dataset created automatically by the system)"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "datasetName",
+                                            "label": "Dataset Name",
+                                            "schema": {
+                                                "type": "string",
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "ixVolume"
+                                                    ]
+                                                ],
+                                                "required": true,
+                                                "hidden": true,
+                                                "immutable": true,
+                                                "default": "certs",
+                                                "$ref": [
+                                                    "normalize/ixVolume"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "variable": "hostPath",
+                                            "label": "Host Path",
+                                            "schema": {
+                                                "type": "hostpath",
+                                                "show_if": [
+                                                    [
+                                                        "type",
+                                                        "=",
+                                                        "hostPath"
+                                                    ]
+                                                ],
+                                                "required": true
+                                            }
+                                        },
+                                        {
+                                            "variable": "mountPath",
+                                            "label": "Mount Path",
+                                            "description": "Path inside the container the storage is mounted",
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "/opt/certbot",
+                                                "required": false,
+                                                "valid_chars": "^\\/([a-zA-Z0-9._-]+(\\s?[a-zA-Z0-9._-]+|\\/?))+$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "resources",
+                    "group": "Resources Configuration",
+                    "label": "",
+                    "schema": {
+                        "type": "dict",
+                        "attrs": [
+                            {
+                                "variable": "limits",
+                                "label": "Limits",
+                                "schema": {
+                                    "type": "dict",
+                                    "attrs": [
+                                        {
+                                            "variable": "cpu",
+                                            "label": "CPU",
+                                            "description": "CPU limit for Nginx Proxy Manager.",
+                                            "schema": {
+                                                "type": "string",
+                                                "max_length": 6,
+                                                "valid_chars": "^(0\\.[1-9]|[1-9][0-9]*)(\\.[0-9]|m?)$",
+                                                "valid_chars_error": "Valid CPU limit formats are</br>\n- Plain Integer - eg. 1</br>\n- Float - eg. 0.5</br>\n- Milicpu - eg. 500m\n",
+                                                "default": "2000m",
+                                                "required": true
+                                            }
+                                        },
+                                        {
+                                            "variable": "memory",
+                                            "label": "Memory",
+                                            "description": "Memory limit for Nginx Proxy Manager.",
+                                            "schema": {
+                                                "type": "string",
+                                                "max_length": 12,
+                                                "valid_chars": "^[1-9][0-9]*([EPTGMK]i?|e[0-9]+)?$",
+                                                "valid_chars_error": "Valid Memory limit formats are</br>\n- Suffixed with E/P/T/G/M/K - eg. 1G</br>\n- Suffixed with Ei/Pi/Ti/Gi/Mi/Ki - eg. 1Gi</br>\n- Plain Integer in bytes - eg. 1024</br>\n- Exponent - eg. 134e6\n",
+                                                "default": "4Gi",
+                                                "required": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "variable": "database",
+                    "group": "Database Settings",
+                    "label": "Database Settings",
+                    "schema": {
+                        "additional_attrs": true,
+                        "type": "dict",
+                        "attrs": [
+                            {
+                                "variable": "mysql_host",
+                                "label": "mysql_host",
+                                "description": "mysql_host",
+                                "schema": {
+                                    "type": "string",
+                                    "default": ""
+                                }
+                            },
+                            {
+                                "variable": "mysql_host_port",
+                                "label": "mysql_host_port",
+                                "description": "mysql_host_port",
+                                "schema": {
+                                    "type": "int",
+                                    "default": 3306
+                                }
+                            },
+                            {
+                                "variable": "mysql_db_name",
+                                "label": "mysql_db_name",
+                                "description": "mysql_db_name",
+                                "schema": {
+                                    "type": "string",
+                                    "default": ""
+                                }
+                            },
+                            {
+                                "variable": "mysql_user",
+                                "label": "mysql_user",
+                                "description": "mysql_user",
+                                "schema": {
+                                    "type": "string",
+                                    "default": ""
+                                }
+                            },
+                            {
+                                "variable": "mysql_password",
+                                "label": "mysql_password",
+                                "description": "mysql_password",
+                                "schema": {
+                                    "type": "string",
+                                    "private": true,
+                                    "default": ""
+                                }
+                            },
+                            {
+                                "variable": "disable_ipv6",
+                                "label": "disable_ipv6",
+                                "description": "disable_ipv6",
+                                "schema": {
+                                    "type": "boolean",
+                                    "default": true
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "app_readme": "<h1>Nginx Proxy Manager</h1>\n<p><a href=\"https://nginxproxymanager.com\">Nginx Proxy Manager</a> Expose your services easily and securely</p>\n<blockquote>\n<p>Application requires to run as root. This is a limitation of the application.</p>\n</blockquote>",
+        "detailed_readme": "<h1>Nginx Proxy Manager</h1>\n<p><a href=\"https://nginxproxymanager.com\">Nginx Proxy Manager</a> Expose your services easily and securely</p>\n<blockquote>\n<p>Application requires to run as root. This is a limitation of the application.</p>\n</blockquote>",
+        "changelog": null
+    }
+}

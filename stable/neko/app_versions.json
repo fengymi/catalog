@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/neko/6.0.2",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.8.11_6.0.2",
         "version": "6.0.2",
@@ -56,16 +56,16 @@
             "sources": [
                 "https://github.com/m1k1o/neko",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/neko",
-                "https://ghcr.io/m1k1o/neko/google-chrome",
-                "https://ghcr.io/m1k1o/neko/xfce",
-                "https://ghcr.io/m1k1o/neko/tor-browser",
-                "https://ghcr.io/m1k1o/neko/chromium",
-                "https://ghcr.io/m1k1o/neko/vlc",
-                "https://ghcr.io/m1k1o/neko/vivaldi",
-                "https://ghcr.io/m1k1o/neko/firefox",
                 "https://ghcr.io/m1k1o/neko/remmina",
+                "https://ghcr.io/m1k1o/neko/firefox",
+                "https://ghcr.io/m1k1o/neko/xfce",
+                "https://ghcr.io/m1k1o/neko/brave",
+                "https://ghcr.io/m1k1o/neko/vivaldi",
                 "https://ghcr.io/m1k1o/neko/microsoft-edge",
-                "https://ghcr.io/m1k1o/neko/brave"
+                "https://ghcr.io/m1k1o/neko/chromium",
+                "https://ghcr.io/m1k1o/neko/google-chrome",
+                "https://ghcr.io/m1k1o/neko/tor-browser",
+                "https://ghcr.io/m1k1o/neko/vlc"
             ],
             "type": "application",
             "version": "6.0.2"
@@ -5026,19 +5026,19 @@
         },
         "app_readme": "<p>A self hosted virtual browser that runs in Chart</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/neko\">https://truecharts.org/charts/stable/neko</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
         "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as Apps on TrueNAS SCALE.\nHowever only installations using the TrueNAS SCALE Apps system are supported.</p>\n<p>For more information about this App, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/neko\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Support</h2>\n<ul>\n<li>Please check our <a href=\"https://truecharts.org/manual/SCALE/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</li>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
-        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-01)</h2>\n<h3>Chore</h3>"
+        "changelog": "<hr />\n<h2>title: Changelog</h2>\n<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-06)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-06)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-06)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-06)</h2>\n<h3>Chore</h3>\n<ul>\n<li>\n<p>update container image common to v20.2.10<a href=\"https://github.com/6f99c97\">@6f99c97</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19876\">#19876</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.9<a href=\"https://github.com/10fd6c5\">@10fd6c5</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19817\">#19817</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.4<a href=\"https://github.com/f245f5c\">@f245f5c</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19731\">#19731</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.3<a href=\"https://github.com/06e462e\">@06e462e</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19673\">#19673</a>)</p>\n</li>\n<li>\n<p>update neko by renovate (<a href=\"https://github.com/truecharts/charts/issues/19451\">#19451</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.2<a href=\"https://github.com/f7d0b92\">@f7d0b92</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19432\">#19432</a>)</p>\n</li>\n<li>\n<p>update container image common to v20.2.0<a href=\"https://github.com/91ade87\">@91ade87</a> by renovate (<a href=\"https://github.com/truecharts/charts/issues/19361\">#19361</a>)</p>\n</li>\n</ul>\n<h2><a href=\"https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.0.2\">neko-6.0.2</a> (2024-04-06)</h2>\n<h3>Chore</h3>"
     },
     "6.0.1": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/neko/6.0.1",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2.8.11_6.0.1",
         "version": "6.0.1",
@@ -10053,11 +10053,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/neko/5.7.12",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/interface"
         ],
         "human_version": "firefox_5.7.12",
         "version": "5.7.12",
@@ -14500,11 +14500,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/neko/5.7.11",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/interface"
         ],
         "human_version": "firefox_5.7.11",
         "version": "5.7.11",
@@ -18947,12 +18947,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/neko/4.3.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "firefox_4.3.0",
         "version": "4.3.0",
@@ -23437,12 +23437,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/neko/4.2.10",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "firefox_4.2.10",
         "version": "4.2.10",

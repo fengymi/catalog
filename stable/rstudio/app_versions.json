@@ -4,11 +4,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/rstudio/6.7.6",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/interface"
         ],
         "human_version": "4.3.3_6.7.6",
         "version": "6.7.6",
@@ -5205,11 +5205,11 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/rstudio/6.7.5",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/interface",
-            "normalize/interfaceConfiguration"
+            "definitions/interface"
         ],
         "human_version": "4.3.3_6.7.5",
         "version": "6.7.5",
@@ -10406,12 +10406,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/rstudio/5.3.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "4.3.2_5.3.0",
         "version": "5.3.0",
@@ -15650,12 +15650,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/rstudio/5.2.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
+            "normalize/interfaceConfiguration",
             "definitions/gpuConfiguration",
             "definitions/interface",
-            "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "4.3.2_5.2.0",
         "version": "5.2.0",

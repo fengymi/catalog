@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/domoticz/10.7.5",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2024.4.0_10.7.5",
         "version": "10.7.5",
@@ -5033,12 +5033,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/domoticz/10.7.4",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2024.4.0_10.7.4",
         "version": "10.7.4",
@@ -10062,13 +10062,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/domoticz/9.3.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2024.4.0_9.3.0",
         "version": "9.3.0",
@@ -15134,13 +15134,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/domoticz/9.2.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "2024.4.0_9.2.0",
         "version": "9.2.0",

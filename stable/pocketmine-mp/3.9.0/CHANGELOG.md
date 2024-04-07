@@ -29,7 +29,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [pocketmine-mp-3.9.0](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.9.0) (2024-04-05)
+## [pocketmine-mp-3.9.0](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.9.0) (2024-04-06)
 
 ### Chore
 
@@ -50,11 +50,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [pocketmine-mp-3.8.5](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.8.5) (2024-03-30)
+## [pocketmine-mp-3.9.0](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.9.0) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image ghcr.io/pmmp/pocketmine-mp to v5.14.1[@5aa6675](https://github.com/5aa6675) by renovate ([#20288](https://github.com/truecharts/charts/issues/20288))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -69,11 +71,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [pocketmine-mp-3.8.5](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.8.5) (2024-03-30)
+## [pocketmine-mp-3.9.0](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.9.0) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image ghcr.io/pmmp/pocketmine-mp to v5.14.1[@5aa6675](https://github.com/5aa6675) by renovate ([#20288](https://github.com/truecharts/charts/issues/20288))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -88,12 +92,8 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [pocketmine-mp-3.8.5](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.8.5) (2024-03-30)
+## [pocketmine-mp-3.9.0](https://github.com/truecharts/charts/compare/pocketmine-mp-3.6.0...pocketmine-mp-3.9.0) (2024-04-06)
 
 ### Chore
 
 
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

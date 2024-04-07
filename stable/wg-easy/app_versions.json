@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/12.1.5",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "12.0.0_12.1.5",
         "version": "12.1.5",
@@ -5131,12 +5131,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/12.1.4",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "12.0.0_12.1.4",
         "version": "12.1.4",
@@ -10258,12 +10258,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/11.6.1",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.0.0_11.6.1",
         "version": "11.6.1",
@@ -15367,12 +15367,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/11.6.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.0.0_11.6.0",
         "version": "11.6.0",
@@ -20476,13 +20476,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/10.1.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.0.0_10.1.0",
         "version": "10.1.0",
@@ -25628,13 +25628,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/10.0.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "11.0.0_10.0.0",
         "version": "10.0.0",
@@ -30780,13 +30780,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/wg-easy/9.1.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "10.0.0_9.1.0",
         "version": "9.1.0",

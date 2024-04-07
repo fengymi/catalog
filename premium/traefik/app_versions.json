@@ -4,7 +4,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/premium/traefik/26.9.9",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"
@@ -5926,7 +5926,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/premium/traefik/26.9.8",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
             "definitions/certificate",
             "definitions/timezone"

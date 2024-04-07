@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bitmagnet/1.8.5",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "0.7.14_1.8.5",
         "version": "1.8.5",
@@ -2986,6 +2986,26 @@
                                             }
                                         },
                                         {
+                                            "variable": "pgVersion",
+                                            "label": "Postgres Version",
+                                            "description": "Set the Postgresql version used",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 16,
+                                                "required": true
+                                            }
+                                        },
+                                        {
+                                            "variable": "password",
+                                            "label": "Password",
+                                            "description": "Set the password for the database-user",
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "PLACEHOLDERPASSWORD",
+                                                "required": true
+                                            }
+                                        },
+                                        {
                                             "variable": "cluster",
                                             "label": "Cluster Settings",
                                             "schema": {
@@ -5390,12 +5410,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/bitmagnet/1.8.4",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/interface",
-            "definitions/timezone",
+            "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "normalize/interfaceConfiguration"
+            "definitions/interface",
+            "definitions/timezone"
         ],
         "human_version": "0.7.14_1.8.4",
         "version": "1.8.4",

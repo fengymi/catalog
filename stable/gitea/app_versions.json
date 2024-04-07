@@ -4,13 +4,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/gitea/18.14.15",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/nodeIP",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "1.21.10_18.14.15",
         "version": "18.14.15",
@@ -3653,6 +3653,26 @@
                                             }
                                         },
                                         {
+                                            "variable": "pgVersion",
+                                            "label": "Postgres Version",
+                                            "description": "Set the Postgresql version used",
+                                            "schema": {
+                                                "type": "int",
+                                                "default": 16,
+                                                "required": true
+                                            }
+                                        },
+                                        {
+                                            "variable": "password",
+                                            "label": "Password",
+                                            "description": "Set the password for the database-user",
+                                            "schema": {
+                                                "type": "string",
+                                                "default": "PLACEHOLDERPASSWORD",
+                                                "required": true
+                                            }
+                                        },
+                                        {
                                             "variable": "cluster",
                                             "label": "Cluster Settings",
                                             "schema": {
@@ -6004,13 +6024,13 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/gitea/18.14.14",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/nodeIP",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "1.21.10_18.14.14",
         "version": "18.14.14",
@@ -12004,14 +12024,14 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/gitea/17.4.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/nodeIP",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "1.21.5_17.4.0",
         "version": "17.4.0",
@@ -18099,14 +18119,14 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/gitea/17.3.0",
-        "last_update": "2024-04-01 12:41:33",
+        "last_update": "2024-04-06 18:48:34",
         "required_features": [
-            "definitions/gpuConfiguration",
-            "definitions/nodeIP",
-            "definitions/certificate",
-            "definitions/timezone",
             "normalize/interfaceConfiguration",
-            "definitions/interface"
+            "definitions/certificate",
+            "definitions/gpuConfiguration",
+            "definitions/interface",
+            "definitions/timezone",
+            "definitions/nodeIP"
         ],
         "human_version": "1.21.5_17.3.0",
         "version": "17.3.0",
